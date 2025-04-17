@@ -13,10 +13,10 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "xlsx": "^0.18.5"
   },
@@ -27,5 +27,17 @@
     "ts-node": "^10.9.2",
     "typescript": "^4.9.5"
   },
-  "homepage": "https://ank-man.github.io/IMPGD"
+  "homepage": "https://ank-man.github.io/IMPGD",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
