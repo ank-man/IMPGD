@@ -1,0 +1,17 @@
+{
+  "name": "impgd",
+  "version": "1.0.0",
+  "description": "Indian Medicinal Plant Genome Database",
+  "main": "scripts/process_excel.ts",
+  "scripts": {
+    "process": "ts-node scripts/process_excel.ts"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+} 
