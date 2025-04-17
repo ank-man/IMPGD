@@ -4,14 +4,28 @@
   "description": "Indian Medicinal Plant Genome Database",
   "main": "scripts/process_excel.ts",
   "scripts": {
-    "process": "ts-node scripts/process_excel.ts"
+    "process": "ts-node scripts/process_excel.ts",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "^5.0.1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
+    "acorn": "^8.14.1",
+    "gh-pages": "^6.3.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
-  }
-} 
+    "typescript": "^4.9.5"
+  },
+  "homepage": "https://ank-man.github.io/IMPGD"
+}
